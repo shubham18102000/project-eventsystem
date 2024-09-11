@@ -1,0 +1,88 @@
+.user-main-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .home-btn, .logout-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .home-btn:hover, .logout-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-header h1 {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .user-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .card-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .card-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cart-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cart-details p {
+    margin-bottom: 10px;
+  }
+  
